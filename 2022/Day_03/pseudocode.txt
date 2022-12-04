@@ -1,0 +1,39 @@
+My start interpretation of the subtasks from reading the challenge
+
+Part 1:
+
+Load input file
+
+Read rows
+    for each row
+        Split string in half
+            save in variable
+        for each variable1
+            search variable2 for match
+            save in matchesFound
+
+For each place in matchesFound
+    determine priority
+        add priority to totalScore
+
+Print totalScore
+
+Part 2:
+
+Load input file
+
+Read file to array
+    Split on newline
+
+Break up the file into sets of three
+
+For each backpack in the set
+    Convert string to individual characters in an array
+    Convert array of characters in set (dedup)
+    Find intersection() of the set of three to get the common value in all the backpacks
+
+Convert the common value into the priority
+    Add the priorty to the total priority
+
+Print total priority
+
