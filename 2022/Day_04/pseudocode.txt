@@ -1,0 +1,32 @@
+Assessment of subtask after reading challenge
+
+Part 1:
+
+Load file
+  Split on newline
+  Split on comma
+  Split on dash
+  Group in sets of 4
+
+Find larger range
+  Range set 1
+  Range set 2
+  Return larger set
+
+Using larger set
+  Find if smaller set is within larger set
+
+
+Part 2:
+
+Load file
+  Split on newline
+  Split on comma
+  Split on dash
+
+for each value in set
+  see if the value matches second pair
+  if matches count 1
+
+Using larger set
+  Find if any parts overlap
